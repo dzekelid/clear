@@ -7,37 +7,31 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/139-factua
 x-kinRank: "9"
 x-alexaRank: "147251"
 tags: Clear
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/clear/master/_listings/factual/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Factual Post Table Name Factual Clear
-  x-api-slug: factual
+- name: Factual - Post Table Name Factual Clear
+  x-api-slug: ttable-namefactual-idclear-post
   description: Post table name factual clear.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/139-factual.jpg
   humanURL: http://www.factual.com/
-  baseURL: https://api.v3.factual.com////t/{table_name}/{factual_id}/clear
-  tags: Table,Name,Factual,Id,Clear
+  baseURL: https://api.v3.factual.com//
+  tags: Data, Geo, Places, Target, Business, Stack Network, SaaS, Technology, Enterprise,
+    internet, API Provider, Data Provider, Profiles, General Data, Locations
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/clear/master/_listings/factual/ttable-namefactual-idclear-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/clear/master/_listings/factual/ttable-namefactual-idclear-post-openapi.md
-- name: Factual
-  x-api-slug: factual
-  description: Factual is pioneering how the world uses data to power mobile marketing,
-    digital consumer products, mobile applications and real world analytics.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/139-factual.jpg
-  humanURL: http://www.factual.com/
-  baseURL: https://api.v3.factual.com//
-  tags: Clear
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clear/master/_listings/factual/openapi.md
 x-common:
 - type: x-website
   url: http://www.factual.com/
+- type: x-api-gallery
+  url: http://facebook.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://factual.stack.network
 - type: x-base
   url: http://api.v3.factual.com
 - type: x-blog
